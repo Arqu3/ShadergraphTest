@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fire
+  m_Shader: {fileID: 4800000, guid: 5e369a03ac2ef7e46b436547da335e41, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_6D49AE5C:
+        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_72269E51:
+        m_Texture: {fileID: 2800000, guid: a91d3252ac9bca04abc0ff634523e77a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_7E232B15:
+        m_Texture: {fileID: 2800000, guid: e4dd14870ff54664a8d497387aff7992, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_25E57F3F: 0.1
+    - Vector1_4277C294: 0.5
+    - Vector1_61C07821: 0.17
+    - Vector1_A7FE8ACE: 10
+    - Vector1_C4A56B9C: 0.25
+    m_Colors:
+    - Color_B9A342D2: {r: 7.129739, g: 7.129739, b: 7.129739, a: 0}
