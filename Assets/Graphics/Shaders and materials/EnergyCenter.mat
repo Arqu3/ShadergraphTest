@@ -13,7 +13,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2451
+  m_CustomRenderQueue: 2452
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -22,6 +22,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
+    - Vector1_437D4505: 1
     - Vector1_625BF471: 4
+    - Vector1_A3B7572D: 0.05
+    - Vector1_DCEC30D2: 500
     m_Colors:
     - Color_A2AA4FC2: {r: 1, g: 1, b: 1, a: 0}
