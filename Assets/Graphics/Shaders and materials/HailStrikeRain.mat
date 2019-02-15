@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EnergyCenter
+  m_Name: HailStrikeRain
   m_Shader: {fileID: 4800000, guid: 67d29912528d9be4d8025f7ab25f251e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2452
+  m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -23,8 +23,7 @@ Material:
     m_TexEnvs: []
     m_Floats:
     - Vector1_437D4505: 0
-    - Vector1_625BF471: 4
-    - Vector1_A3B7572D: 0.05
-    - Vector1_DCEC30D2: 500
+    - Vector1_A3B7572D: 0.1
+    - Vector1_DCEC30D2: 5000
     m_Colors:
-    - Color_A2AA4FC2: {r: 1, g: 1, b: 1, a: 0}
+    - Color_A2AA4FC2: {r: 2.433572, g: 2.433572, b: 2.433572, a: 0}
