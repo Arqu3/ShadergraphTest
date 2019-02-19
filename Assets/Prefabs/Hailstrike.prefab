@@ -32242,7 +32242,7 @@ ParticleSystem:
     - serializedVersion: 3
       emitter: {fileID: 6312430245647807083}
       type: 2
-      properties: 0
+      properties: 1
       emitProbability: 1
   LightsModule:
     enabled: 0
@@ -33468,8 +33468,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.36858356, g: 0.28627455, b: 1, a: 0.078431375}
-      maxColor: {r: 0.3726415, g: 0.8823801, b: 1, a: 0.078431375}
+      minColor: {r: 1, g: 1, b: 1, a: 0.38431373}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -33531,7 +33531,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.1
+      scalar: 0.2
       minScalar: 0.01
       maxCurve:
         serializedVersion: 2
@@ -33853,8 +33853,8 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 3
-      scalar: -0.2
-      minScalar: -0.1
+      scalar: 0.1
+      minScalar: -0.05
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -36980,7 +36980,7 @@ ParticleSystem:
         m_RotationOrder: 4
     minKillSpeed: 0
     maxKillSpeed: 10000
-    radiusScale: 1
+    radiusScale: 0.2
     collidesWith:
       serializedVersion: 2
       m_Bits: 4294967295

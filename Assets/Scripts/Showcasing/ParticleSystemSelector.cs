@@ -35,8 +35,12 @@ public class ParticleSystemSelector : MonoBehaviour
             targetPosition = players[selectedIndex].transform.position;
         }
 
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(targetPosition.x, transform.position.y, transform.position.z), 20f * Time.deltaTime);
+        Vector3 target = new Vector3(targetPosition.x, transform.position.y, transform.position.z);
+        transform.position = Vector3.MoveTowards(transform.position, target, 10f * Mathf.Max(2f, Vector3.Distance(transform.position, target)) * Time.deltaTime);
+
+        transform.position += transform.forward * Input.mouseScrollDelta.y * 20f * Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.Space)) players[selectedIndex].Play();
+        if (Input.GetKeyDown(KeyCode.S)) players[selectedIndex].Stop();
     }
 }

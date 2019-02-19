@@ -18,6 +18,11 @@ public abstract class ParticleSystemPlayer : MonoBehaviour
         OnPlay();
     }
 
+    public void Stop()
+    {
+        pSystem.Stop();
+    }
+
     protected abstract void OnPlay();
 
     private void OnEnable()
@@ -37,7 +42,6 @@ public abstract class ParticleSystemPlayer : MonoBehaviour
 
     protected virtual void OnDeselected()
     {
-        pSystem.Stop();
     }
 
 #if UNITY_EDITOR
