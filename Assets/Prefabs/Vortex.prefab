@@ -9488,6 +9488,7 @@ GameObject:
   - component: {fileID: 4236484659684397519}
   - component: {fileID: 4236484659684397516}
   - component: {fileID: 4236484659684397517}
+  - component: {fileID: 4236484659634667535}
   m_Layer: 0
   m_Name: Vortex
   m_TagString: Untagged
@@ -14205,6 +14206,18 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &4236484659634667535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4236484659684397490}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e531e1aabd63884a81535c0d5338b0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4236484660975360029
 GameObject:
   m_ObjectHideFlags: 0
