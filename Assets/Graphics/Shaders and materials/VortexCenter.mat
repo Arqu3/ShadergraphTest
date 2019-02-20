@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EnergyCenter
+  m_Name: VortexCenter
   m_Shader: {fileID: 4800000, guid: 67d29912528d9be4d8025f7ab25f251e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

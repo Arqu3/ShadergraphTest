@@ -8,29 +8,22 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: EnergySurgeCenter
-  m_Shader: {fileID: 4800000, guid: 79982bcfb72132d48b84bc64e8d61240, type: 3}
+  m_Shader: {fileID: 4800000, guid: 67d29912528d9be4d8025f7ab25f251e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 2450
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
   - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - Texture2D_ACDD21D9:
-        m_Texture: {fileID: 2800000, guid: dfb6cc7bc53625248bf4a581df0a422e, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Floats:
-    - Vector1_512928FC: 0.5
-    - Vector1_67243D09: 1000
-    - Vector1_733D16D8: 0.05
-    - Vector1_7A59BD18: 0.01
-    - Vector1_A3882700: 0.45
+    - Vector1_437D4505: 0.02
+    - Vector1_A3B7572D: 0.1
+    - Vector1_DCEC30D2: 1000
     m_Colors:
-    - Color_9604D3FA: {r: 6.8831816, g: 6.8831816, b: 6.8831816, a: 1}
-    - Vector2_B633D696: {r: 3, g: 3, b: 0, a: 0}
+    - Color_A2AA4FC2: {r: 4.8781195, g: 0.35184866, b: 0, a: 0}
