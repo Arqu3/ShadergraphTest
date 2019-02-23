@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: EnergySurgeCenter
-  m_Shader: {fileID: 4800000, guid: 67d29912528d9be4d8025f7ab25f251e, type: 3}
+  m_Name: LightningHDR
+  m_Shader: {fileID: 4800000, guid: c54a33f08f1bc524b9d7d1fea5d4fe4b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,10 +20,11 @@ Material:
   - MOTIONVECTORS
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
-    m_Floats:
-    - Vector1_437D4505: 0.02
-    - Vector1_A3B7572D: 0.1
-    - Vector1_DCEC30D2: 1000
+    m_TexEnvs:
+    - Texture2D_DD0EFADE:
+        m_Texture: {fileID: 2800000, guid: c3360607ef011c04b8fb3e67424ad43b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
     m_Colors:
-    - Color_A2AA4FC2: {r: 10.432951, g: 3.0559294, b: 0.3277367, a: 0}
+    - Color_9C65AC48: {r: 5.5908804, g: 5.5908804, b: 5.5908804, a: 1}
