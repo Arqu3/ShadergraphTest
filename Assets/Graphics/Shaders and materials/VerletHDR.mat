@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AcidSmoke
+  m_Name: VerletHDR
   m_Shader: {fileID: 4800000, guid: c54a33f08f1bc524b9d7d1fea5d4fe4b, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2450
+  m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
   disabledShaderPasses:
@@ -22,9 +22,9 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_DD0EFADE:
-        m_Texture: {fileID: 2800000, guid: 01a85b4f46caeea40ae4ad018b6ce5e2, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - Color_9C65AC48: {r: 1, g: 1, b: 1, a: 1}
+    - Color_9C65AC48: {r: 3.4415908, g: 3.4415908, b: 3.4415908, a: 1}
