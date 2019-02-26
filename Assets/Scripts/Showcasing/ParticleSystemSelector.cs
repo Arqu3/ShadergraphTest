@@ -1,22 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class ParticleSystemSelector : MonoBehaviour
 {
-    #region Public variables
-
-    [Header("Particle system players")]
-    [SerializeField]
-    ParticleSystemPlayer[] players;
-
-    #endregion
-
     Vector3 targetPosition;
     int selectedIndex = 0;
+    ParticleSystemPlayer[] players;
 
     private void Awake()
     {
+        players = FindObjectsOfType<ParticleSystemPlayer>().OrderBy(x => Vector3.Distance(transform.position, x.transform.position)).ToArray();
         targetPosition = players[selectedIndex].transform.position;
     }
 

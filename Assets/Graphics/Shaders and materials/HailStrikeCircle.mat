@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PortalCenter
+  m_Name: HailStrikeCircle
   m_Shader: {fileID: 4800000, guid: b7c328637ec17ba4eb790b865fdb7ee3, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -21,30 +21,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_49294BD6:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - Texture2D_972C9ACF:
-        m_Texture: {fileID: 10300, guid: 0000000000000000f000000000000000, type: 0}
+        m_Texture: {fileID: 2800000, guid: fe0798a47744a6648b5456a3cd5e2935, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_C99A4A68:
-        m_Texture: {fileID: 2800000, guid: 15b6ac967f46f034684d4147968adf34, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_DD0EFADE:
         m_Texture: {fileID: 2800000, guid: 136d937a7a52e594cb4f9e3927302865, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1FDF6F2F: 0
-    - Vector1_8D60AC52: 0
+    - Vector1_46AEAB64: 0
     - Vector1_AD50A12: 0
     - Vector1_F8B1F82E: 0
     m_Colors:
     - Color_6996A2AC: {r: 1, g: 1, b: 1, a: 1}
-    - Color_9C65AC48: {r: 4.867144, g: 4.867144, b: 4.867144, a: 1}
-    - Color_CA262EA8: {r: 1, g: 1, b: 1, a: 0}
-    - Color_F3A9C0A0: {r: 271.17407, g: 271.17407, b: 271.17407, a: 1}
-    - Vector2_31907CED: {r: 1, g: 1, b: 0, a: 0}
+    - Color_F3A9C0A0: {r: 25.688938, g: 25.688938, b: 25.688938, a: 1}
+    - Vector2_31907CED: {r: 2, g: 2, b: 0, a: 0}
