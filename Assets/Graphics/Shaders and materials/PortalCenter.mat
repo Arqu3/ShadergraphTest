@@ -39,8 +39,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - Vector1_1FDF6F2F: 0
+    - Vector1_3E493D53: 1
+    - Vector1_46AEAB64: 0
     - Vector1_8D60AC52: 0
     - Vector1_AD50A12: 0
+    - Vector1_B7BE6D04: 0
     - Vector1_F8B1F82E: 0
     m_Colors:
     - Color_6996A2AC: {r: 1, g: 1, b: 1, a: 1}
@@ -48,3 +51,4 @@ Material:
     - Color_CA262EA8: {r: 1, g: 1, b: 1, a: 0}
     - Color_F3A9C0A0: {r: 271.17407, g: 271.17407, b: 271.17407, a: 1}
     - Vector2_31907CED: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_E7D481F1: {r: 0, g: 0, b: 0, a: 0}
