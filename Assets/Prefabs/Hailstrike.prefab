@@ -975,7 +975,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 8
+        scalar: 12
         minScalar: 5
         maxCurve:
           serializedVersion: 2
@@ -2021,15 +2021,15 @@ ParticleSystem:
         m_RotationOrder: 4
     radial:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 1.5
+      minMaxState: 2
+      scalar: 4
       minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
+          value: 0.6923086
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -2037,8 +2037,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 1
-          value: 0
+          time: 0.45098877
+          value: 0.19230652
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -2053,7 +2053,7 @@ ParticleSystem:
         m_Curve:
         - serializedVersion: 3
           time: 0
-          value: 0
+          value: 0.3076973
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -2061,8 +2061,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 1
-          value: 0
+          time: 0.44854736
+          value: 0.17948914
           inSlope: 0
           outSlope: 0
           tangentMode: 0
@@ -11494,7 +11494,7 @@ ParticleSystem:
     radial:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 15
+      scalar: 20
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -11509,8 +11509,8 @@ ParticleSystem:
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.17328548
-          value: -0.028007068
+          time: 0.4723072
+          value: -0.028002769
           inSlope: 0.018458039
           outSlope: 0.018458039
           tangentMode: 0
@@ -29251,7 +29251,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 0.82844234
+      value: 1.7317238
       mode: 0
       spread: 0
       speed:
@@ -29370,7 +29370,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 8
+      scalar: 16
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -42805,7 +42805,7 @@ GameObject:
   - component: {fileID: 3423667870285351322}
   - component: {fileID: 3077021212486550990}
   m_Layer: 0
-  m_Name: BuildupCompleteSubEmitter
+  m_Name: BuildupCompleteSubEmitterAir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
