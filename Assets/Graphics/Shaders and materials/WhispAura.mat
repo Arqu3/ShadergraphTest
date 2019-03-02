@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: WhispAura
-  m_Shader: {fileID: 4800000, guid: c54a33f08f1bc524b9d7d1fea5d4fe4b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 669f1fed4b3344e4aa2f1b8a3903d33e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -21,10 +21,20 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - Texture2D_367A7F54:
+        m_Texture: {fileID: 2800000, guid: dfb6cc7bc53625248bf4a581df0a422e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_49294BD6:
+        m_Texture: {fileID: 2800000, guid: 9cabb2ae2c2bd9840bf4136e670697d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - Texture2D_DD0EFADE:
         m_Texture: {fileID: 2800000, guid: 9cabb2ae2c2bd9840bf4136e670697d9, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    m_Floats: []
+    m_Floats:
+    - Vector1_8D60AC52: 0
     m_Colors:
     - Color_9C65AC48: {r: 1, g: 1, b: 1, a: 1}
+    - Color_CA262EA8: {r: 1, g: 1, b: 1, a: 0}
