@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Whisp
+  m_Name: Wisp
   m_Shader: {fileID: 4800000, guid: b7c328637ec17ba4eb790b865fdb7ee3, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4

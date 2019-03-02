@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WhispAura
+  m_Name: WispAura
   m_Shader: {fileID: 4800000, guid: 669f1fed4b3344e4aa2f1b8a3903d33e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
