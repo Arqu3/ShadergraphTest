@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterSplash
+  m_Shader: {fileID: 4800000, guid: 669f1fed4b3344e4aa2f1b8a3903d33e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_367A7F54:
+        m_Texture: {fileID: 2800000, guid: dfb6cc7bc53625248bf4a581df0a422e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_49294BD6:
+        m_Texture: {fileID: 2800000, guid: eb5cbe26654725c4da407e8ac71e9480, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6A82F1BF:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B59D6DE2:
+        m_Texture: {fileID: 2800000, guid: eb5cbe26654725c4da407e8ac71e9480, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_5610578D: 0.5
+    - Vector1_8D60AC52: 0.15
+    - Vector1_9ED67256: 1
+    m_Colors:
+    - Color_CA262EA8: {r: 3.031433, g: 3.031433, b: 3.031433, a: 0}
