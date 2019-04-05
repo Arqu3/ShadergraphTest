@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BarrageBall
+  m_Shader: {fileID: 4800000, guid: 669f1fed4b3344e4aa2f1b8a3903d33e, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_28CC62DB:
+        m_Texture: {fileID: 2800000, guid: dfb6cc7bc53625248bf4a581df0a422e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_2A845585:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_367A7F54:
+        m_Texture: {fileID: 2800000, guid: 5dbfc8146113ad54798a8aa06b9622eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_49294BD6:
+        m_Texture: {fileID: 2800000, guid: f31f9162d5c2427449e32d7f6f7a920e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6963FD7D:
+        m_Texture: {fileID: 2800000, guid: dfb6cc7bc53625248bf4a581df0a422e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_6D49AE5C:
+        m_Texture: {fileID: 2800000, guid: f31f9162d5c2427449e32d7f6f7a920e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_8CDD0C49:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_972C9ACF:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B4810B60:
+        m_Texture: {fileID: 2800000, guid: e4dd14870ff54664a8d497387aff7992, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C1029129:
+        m_Texture: {fileID: 2800000, guid: f31f9162d5c2427449e32d7f6f7a920e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C99A4A68:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_D68B4532:
+        m_Texture: {fileID: 2800000, guid: dfb6cc7bc53625248bf4a581df0a422e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F7A30F62:
+        m_Texture: {fileID: 2800000, guid: 5dbfc8146113ad54798a8aa06b9622eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1FDF6F2F: 1
+    - Vector1_25E57F3F: 1
+    - Vector1_3E493D53: 1
+    - Vector1_4277C294: 1
+    - Vector1_46AEAB64: 0
+    - Vector1_5729E73C: 1
+    - Vector1_61C07821: 1
+    - Vector1_6B370C68: 0.29
+    - Vector1_7F8BD287: 0
+    - Vector1_8545D8A9: 10
+    - Vector1_8B24200: 0.501
+    - Vector1_8D60AC52: 0
+    - Vector1_93113AD7: 0.5
+    - Vector1_A7FE8ACE: 1
+    - Vector1_AD50A12: 1
+    - Vector1_B7BE6D04: 0
+    - Vector1_C4A56B9C: 1
+    - Vector1_E7680261: 3
+    - Vector1_F8B1F82E: 1
+    - Vector1_FF866A5C: 0.38
+    m_Colors:
+    - Color_19F9D384: {r: 0, g: 0, b: 0, a: 1}
+    - Color_29DDE076: {r: 1, g: 1, b: 1, a: 1}
+    - Color_6996A2AC: {r: 1, g: 1, b: 1, a: 1}
+    - Color_76B83331: {r: 6.4222345, g: 6.4222345, b: 6.4222345, a: 1}
+    - Color_830AFA5E: {r: 0, g: 0, b: 0, a: 1}
+    - Color_A024D8B5: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
+    - Color_B9A342D2: {r: 16.94838, g: 16.94838, b: 16.94838, a: 0}
+    - Color_CA262EA8: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
+    - Color_CE949E91: {r: 2, g: 2, b: 2, a: 1}
+    - Color_F3A9C0A0: {r: 1, g: 1, b: 1, a: 1}
+    - Vector2_31907CED: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_3DC2204D: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_4736EC3D: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_A673805B: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_C5280B70: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_E4D3EDBA: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_E7D481F1: {r: 0, g: 0, b: 0, a: 0}
