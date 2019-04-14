@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HealingRadialGradient
+  m_Shader: {fileID: 4800000, guid: 3fc4825c5bd9a584685f91db3889de35, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_2A845585:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_367A7F54:
+        m_Texture: {fileID: 2800000, guid: c46e27657ff3e5040b130777489f4e14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_49294BD6:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_F7A30F62:
+        m_Texture: {fileID: 2800000, guid: c46e27657ff3e5040b130777489f4e14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_7F8BD287: -0.9
+    - Vector1_8545D8A9: 11
+    - Vector1_8D60AC52: 0
+    m_Colors:
+    - Color_29DDE076: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
+    - Color_CA262EA8: {r: 3.732132, g: 3.732132, b: 3.732132, a: 0}
+    - Vector2_4736EC3D: {r: 0, g: 55, b: 0, a: 0}
+    - Vector2_6E75840A: {r: 0, g: 1, b: 0, a: 0}
